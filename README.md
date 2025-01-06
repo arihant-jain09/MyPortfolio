@@ -13,3 +13,11 @@ Achievements: Notable accomplishments and interests.
 Contact: A contact form and social media links for easy communication.
 
 Search: A simple search bar to explore content.
+
+Tech Stack :
+
+HTML.
+
+CSS.
+
+Javascript.
