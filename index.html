@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my work, achievements, and interests.</p>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="container">
+        <input type="text" id="searchBar" placeholder="Search content...">
+        <button id="searchButton">Search</button>
+        <div id="searchResults"></div>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate developer skilled in HTML, CSS, and JavaScript. I enjoy creating web applications that are both functional and visually appealing.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Below are some of the projects I've worked on. GitHub repositories will load dynamically here.</p>
+    </section>
+
+    <!-- Achievements & Interests Section -->
+    <section id="achievements">
+        <h2>Achievements & Interests</h2>
+        <div class="achievement">
+            <h3>Smart India Hackathon 2023</h3>
+            <p>Participated as a team leader in developing an IoT solution for industrial safety.</p>
+        </div>
+        <div class="achievement">
+            <h3>Class 12th Academic Achievement</h3>
+            <p>Scored an impressive 94.6% in the CBSE board examinations.</p>
+        </div>
+        <div class="interest">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Playing chess and improving strategy skills.</li>
+                <li>Watching Formula 1 races and staying updated with motorsport events.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
