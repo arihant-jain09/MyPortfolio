@@ -1,3 +1,9 @@
+// Toggle Theme
+const themeToggle = document.getElementById("theme-toggle");
+
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+});
 // Contact Form Submission
 const contactForm = document.getElementById('contactForm');
 
