@@ -201,3 +201,21 @@ footer p {
     font-style: italic;
     margin-top: 10px;
 }
+
+/*Toggle Theam */
+body.dark-theme {
+    background: #9f8e8e;
+    color: #0b0a0a;
+  }
+  
+  body.dark-theme header {
+    background: #9f8e8e;
+  }
+  
+  body.dark-theme nav ul li a {
+    color: #9f8e8e;
+  }
+  
+  body.dark-theme .progress {
+    background: #9f8e8e;
+  }
